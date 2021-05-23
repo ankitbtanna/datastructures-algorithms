@@ -113,5 +113,10 @@ myQueue.insertItem("d", 1);
 myQueue.insertItem("e", 0);
 
 myQueue.deleteHighestPriorityItem();
+myQueue.deleteHighestPriorityItem();
+myQueue.deleteHighestPriorityItem();
+myQueue.deleteHighestPriorityItem();
+myQueue.deleteHighestPriorityItem();
+myQueue.deleteHighestPriorityItem();
 
 myQueue.printEntireQueue();
