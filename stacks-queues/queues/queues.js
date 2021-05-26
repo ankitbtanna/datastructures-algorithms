@@ -38,7 +38,7 @@ class Queue {
     }
     console.log("###########################################");
     for (let i = this.front; i <= this.rear; i++) {
-      console.log(this.queue[i]);
+      console.log(`${this.queue[i]}\n`);
     }
     console.log("###########################################");
   }
