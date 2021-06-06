@@ -38,3 +38,28 @@
 ![](./images/image-7.jpg)
 ![](./images/image-8.jpg)
 ![](./images/image-9.jpg)
+
+## Types of Binary Trees
+
+### Full Binary Tree
+- A Binary Tree is a full binary tree if every node has 0 or 2 children.
+- The following are the examples of a full binary tree.
+- We can also say a full binary tree is a binary tree in which all nodes except leaf nodes have two children.
+![](./images/image-10.jpg)
+
+### Complete Binary Tree
+- A Binary Tree is a Complete Binary Tree if all the levels are completely filled except possibly the last level and the last level has all keys as left as possible 
+![](./images/image-11.jpg)
+
+### Perfect Binary Tree
+- A Binary tree is a Perfect Binary Tree in which all the internal nodes have two children and all leaf nodes are at the same level. 
+![](./images/image-12.jpg)
+
+### Balanced Binary Tree
+- A binary tree is balanced if the height of the tree is O(Log n) where n is the number of nodes. For Example, the AVL tree maintains O(Log n) height by making sure that the difference between the heights of the left and right subtrees is at most 1. 
+- Red-Black trees maintain O(Log n) height by making sure that the number of Black nodes on every root to leaf paths is the same and there are no adjacent red nodes. Balanced Binary Search trees are performance-wise good as they provide O(log n) time for search, insert and delete.
+![](./images/image-13.jpg)
+
+### A degenerate (or pathological) tree
+- A Tree where every internal node has one child. Such trees are performance-wise same as linked list. 
+![](./images/image-14.jpg)
