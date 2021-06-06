@@ -18,9 +18,9 @@
 4. Parent
 5. Leaves
 
-![](./images/image-1.jpg)
 ![](./images/image-2.jpg)
 ![](./images/image-3.jpg)
+![](./images/image-1.jpg)
 
 ## Summary of Binary Tree
 - Tree is a hierarchical data structure.
