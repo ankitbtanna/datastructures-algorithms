@@ -27,3 +27,14 @@
 - Main uses of trees include maintaining hierarchical data, providing moderate access and insert/delete operations.
 - Binary trees are special cases of tree where every node has at most two children. 
 
+## Properties of a Binary Tree
+- Maximum number of nodes at level 'l' of the binary tree is 2^l
+- Maximum number of nodes in a binary tree of height 'h' is 2^h - 1
+- A tree with N nodes, minimum level = Log2(N+1) - 1, minimum height = Log2(N+1)
+- Minimum height of a tree with L leaves, Log2(L)+1
+
+![](./images/image-5.jpg)
+![](./images/image-6.jpg)
+![](./images/image-7.jpg)
+![](./images/image-8.jpg)
+![](./images/image-9.jpg)
